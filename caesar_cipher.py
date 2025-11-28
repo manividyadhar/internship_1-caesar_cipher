@@ -1,9 +1,6 @@
 """
 Caesar Cipher Encryption/Decryption Tool
-Author: [Your Name]
-Date: November 2025
-Description: A Python implementation of the Caesar Cipher algorithm for 
-             encrypting and decrypting text messages.
+Description: A Python implementation of the Caesar Cipher algorithm for encrypting and decrypting text messages.
 """
 
 def encrypt(text, shift):
@@ -110,9 +107,7 @@ def get_valid_shift():
 def main():
     """Main function to run the Caesar Cipher program."""
     
-    print("\n" + "🔐" * 30)
     print("Welcome to Caesar Cipher Tool!")
-    print("🔐" * 30)
     
     while True:
         display_menu()
@@ -125,14 +120,14 @@ def main():
             break
         
         if choice not in ['1', '2', '3']:
-            print("\n❌ Invalid choice! Please enter 1, 2, 3, or 4.")
+            print("\n Invalid choice! Please enter 1, 2, 3, or 4.")
             continue
         
         # Get message from user
         message = input("\nEnter your message: ")
         
         if not message:
-            print("❌ Message cannot be empty!")
+            print(" Message cannot be empty!")
             continue
         
         # Handle brute force option

@@ -7,7 +7,7 @@ A Python implementation of the Caesar Cipher algorithm for educational purposes 
 This project implements the Caesar Cipher, one of the simplest and oldest encryption techniques. It shifts each letter in the plaintext by a fixed number of positions down the alphabet.
 
 **Created as part of:** Cybersecurity Internship Project  
-**Author:** [Your Name]  
+**Author:** Bhavesh Pooniwala  
 **Date:** November 2025
 
 ## ✨ Features
@@ -111,72 +111,13 @@ This project demonstrates understanding of:
 - Function documentation
 - Code organization
 
-## 🔒 Security Note
-
-**⚠️ Educational Purpose Only**
-
-The Caesar Cipher is NOT secure for real-world use. It can be easily broken using:
-- Brute force (only 25 possible keys)
-- Frequency analysis
-- Known plaintext attacks
-
-This implementation is for learning cryptography fundamentals only.
-
 ## 🤝 Contributing
 
 This is an internship learning project. Suggestions and feedback are welcome!
 
-## 📄 License
-
-This project is open source and available for educational purposes.
-
 ## 📧 Contact
 
 **[Your Name]**  
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-*Created with ❤️ for Cybersecurity Learning*
-```
-
----
-
-### **Step 3.3: Create .gitignore**
-
-Copy this into `.gitignore`:
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.idea/
-*.swp
-*.swo
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Distribution
-dist/
-build/
-*.egg-info/
+- Email: pooniwalabhavesh7680@gmail.com
+- LinkedIn: https://www.linkedin.com/in/bhavesh-pooniwala
+- GitHub: https://github.com/Bhaveshpooniwala1
