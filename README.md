@@ -36,7 +36,7 @@ This project implements the Caesar Cipher, one of the simplest and oldest encryp
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/caesar-cipher.git
+git clone https://github.com/Bhaveshpooniwala1/PRODIGY_CS_01.git
 cd caesar-cipher
 ```
 
