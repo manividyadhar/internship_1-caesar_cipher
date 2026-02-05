@@ -1,123 +1,126 @@
-# Caesar Cipher Encryption Tool 🔐
+# 🔐 Caesar Cipher Encryption Tool
 
-A Python implementation of the Caesar Cipher algorithm for educational purposes in cybersecurity.
+A Python-based implementation of the Caesar Cipher encryption technique. This project demonstrates encryption, decryption, and brute-force analysis while reinforcing fundamental cybersecurity concepts.
 
-## 📋 Project Overview
+---
 
-This project implements the Caesar Cipher, one of the simplest and oldest encryption techniques. It shifts each letter in the plaintext by a fixed number of positions down the alphabet.
+## 📌 Project Overview
+
+The Caesar Cipher shifts alphabet characters by a fixed number of positions. This tool supports encryption, decryption, and brute-force decryption while preserving letter case and leaving symbols unchanged.
 
 **Created as part of:** Cybersecurity Internship Project  
-**Author:** Bhavesh Pooniwala  
-**Date:** November 2025
+**Author:** Manividyadhar  
+**Date:** November 2025  
+
+---
 
 ## ✨ Features
 
-- ✅ Encrypt messages with custom shift values
-- ✅ Decrypt messages when shift value is known
-- ✅ Brute force decryption (tries all 26 possible shifts)
-- ✅ Preserves case (uppercase/lowercase)
-- ✅ Keeps special characters unchanged
-- ✅ User-friendly command-line interface
-- ✅ Input validation and error handling
+- Encrypt text using a custom shift value  
+- Decrypt text using a known shift value  
+- Brute-force decryption for all 26 possible shifts  
+- Preserves uppercase and lowercase letters  
+- Symbols and numbers remain unchanged  
+- Menu-based command-line interface  
+- Input validation and error handling  
 
-## 🛠️ Technologies Used
+---
 
-- **Language:** Python 3.x
-- **Development Environment:** Visual Studio Code
-- **Version Control:** Git & GitHub
+## 🛠 Technologies Used
 
-## 📦 Installation
+- Programming Language: Python 3  
+- Code Editor: Visual Studio Code  
+- Version Control: Git and GitHub  
+
+---
+
+## 📥 Installation
 
 ### Prerequisites
-- Python 3.x installed on your system
-- Git (optional, for cloning)
+
+- Python 3 installed  
+- Git installed  
 
 ### Steps
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Bhaveshpooniwala1/PRODIGY_CS_01.git
-cd caesar-cipher
-```
+Clone the repository:
 
-2. Or download directly:
-- Download `caesar_cipher.py`
-- Save it to your desired location
+git clone https://github.com/manividyadhar/internship_1-caesar_cipher.git
+Navigate into the project directory:
 
-## 🚀 Usage
+cd internship_1-caesar_cipher
 
-1. Run the program:
-```bash
+
+Run the program:
+
 python caesar_cipher.py
-```
 
-2. Choose an option from the menu:
-   - **1** - Encrypt a message
-   - **2** - Decrypt a message
-   - **3** - Brute force decrypt (try all shifts)
-   - **4** - Exit
+🚀 Usage
+Menu Options
+1. Encrypt a message
+2. Decrypt a message
+3. Brute force decrypt
+4. Exit
 
-### Examples
+🧪 Examples
+Encryption Example
 
-**Encryption:**
-```
-Enter your message: Hello World
-Enter shift value: 5
+Input:
+
+Message: Hello World
+Shift: 5
+
+
+Output:
+
 Encrypted Message: Mjqqt Btwqi
-```
 
-**Decryption:**
-```
-Enter your message: Mjqqt Btwqi
-Enter shift value: 5
+Decryption Example
+
+Input:
+
+Message: Mjqqt Btwqi
+Shift: 5
+
+
+Output:
+
 Decrypted Message: Hello World
-```
 
-**Brute Force:**
-```
-Enter your message: Mjqqt
-[Shows all 26 possible decryptions]
-```
+⚙️ How It Works
 
-## 🔍 How It Works
+Each letter is converted to its numeric position
 
-The Caesar Cipher works by shifting each letter by a fixed number of positions:
+The shift value is applied
 
-1. **Encryption:** Each letter is replaced by a letter some fixed number of positions down the alphabet
-2. **Decryption:** Shift back by the same number of positions
-3. **Formula:** 
-   - Encryption: `E(x) = (x + shift) mod 26`
-   - Decryption: `D(x) = (x - shift) mod 26`
+Modulo 26 ensures characters remain within alphabet range
 
-### Example with shift = 3:
-```
-A → D
-B → E
-C → F
-...
-X → A
-Y → B
-Z → C
-```
+Encryption Formula:
 
-## 📚 Learning Outcomes
+E(x) = (x + shift) mod 26
 
-This project demonstrates understanding of:
-- Basic cryptography concepts
-- String manipulation in Python
-- ASCII character encoding
-- Modular arithmetic
-- User input validation
-- Function documentation
-- Code organization
 
-## 🤝 Contributing
+Decryption Formula:
 
-This is an internship learning project. Suggestions and feedback are welcome!
+D(x) = (x - shift) mod 26
 
-## 📧 Contact
+🎓 Learning Outcomes
 
-**[Your Name]**  
-- Email: pooniwalabhavesh7680@gmail.com
-- LinkedIn: https://www.linkedin.com/in/bhavesh-pooniwala
-- GitHub: https://github.com/Bhaveshpooniwala1
+Cryptography fundamentals
+
+Python string manipulation
+
+Modular arithmetic
+
+Command-line application development
+
+Secure coding practices
+
+👤 Author Information
+
+Name: Manividyadhar
+Email: manividyadhar143@gmail.com
+
+GitHub: https://github.com/manividyadhar
+
+LinkedIn: https://www.linkedin.com/in/manividyadhar/
